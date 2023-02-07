@@ -257,10 +257,6 @@ for movie in batman_movies
     puts "#{title} #{year_released} #{rated} #{studio}."
   end
 
-  t.string "title"
-  t.integer "year_released"
-  t.string "rated"
-  t.integer "studio_id"
 
 # Prints a header for the cast output
 puts ""
